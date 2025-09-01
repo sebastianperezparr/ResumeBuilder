@@ -22,3 +22,5 @@ def simulate_rephrase(text, job_title=None):
         phrased += f", aligning with responsibilities of a {job_title}"
 
     return phrased
+
+print(simulate_rephrase("Worked in a restaurant helping customers", job_title="Customer Success Specialist"))
